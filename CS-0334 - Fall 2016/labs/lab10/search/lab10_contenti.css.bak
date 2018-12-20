@@ -1,0 +1,13 @@
+body {
+	background-image: url(bg10_add.jpg);
+	background-position: top center;
+	background-repeat: repeat;
+	font-family: cursive;
+	text-align: center;
+}
+
+div.wrapper {
+	border:1px;
+	width:100px;
+	margin:0px auto;
+}

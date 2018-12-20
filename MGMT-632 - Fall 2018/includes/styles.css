@@ -1,0 +1,76 @@
+﻿body.index {
+    background-color: #2a2e30;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #15b5ee;
+}
+
+a.nav {
+    font-family: 'Segoe UI';
+    font-size: 15pt;
+    height: auto;
+}
+
+a.personal {
+    font-family: Gabriola;
+    font-size: 20pt;
+    height: auto;
+}
+
+a.menu {
+    font-family: Arial;
+    font-size: 20pt;
+}
+
+a.menu:hover {
+    color: #f5f33b;
+}
+
+a.submenu {
+    font-family: 'Cambria Math';
+    font-size: 15pt;
+}
+
+a.section {
+    font-family: 'Cambria Math';
+    font-size: 18pt;
+    color: darkblue;
+}
+
+a.prodTitle {
+    font-family: Calibri;
+    font-size: 10pt;
+    font-weight: bold;
+    color: black;
+}
+
+p.desc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8pt;
+    font-style: italic;
+}
+
+ul.secondary {
+    display: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.primary li:hover ul {
+    font-size: 15pt;
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}

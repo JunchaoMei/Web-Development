@@ -1,0 +1,30 @@
+body {
+	background-image: url(004.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+h1 {
+	font-family: Arial;
+	font-style: bold;
+	font-size: 30pt;
+	color: purple;
+}
+
+h2 {
+	font-family: Arial;
+	font-style: bold;
+	font-size: 20pt;
+	color: black;
+}
+
+a {
+	color: blue;
+}
+
+div.tip {
+	border-color:green;
+	border-style:groove;
+	border-width:2px;
+}

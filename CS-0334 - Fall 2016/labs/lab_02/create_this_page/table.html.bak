@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0050)http://www.pitt.edu/~bonidie/cs334/labs/table.html -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><HTML><HEAD>
+<LINK rel="stylesheet" type="text/css" href="table_files/table.css">
+<META content="text/html; charset=utf-8" http-equiv="Content-Type"><TITLE>table 
+layout</TITLE>
+<STYLE type="text/css">
+<!--
+.style1 {color: #FF3300}
+.style2 {color: #0066FF}
+.style3 {color: #33FF99}
+-->
+</STYLE>
+
+<META name="GENERATOR" content="MSHTML 9.00.8112.16457"></HEAD>
+<BODY>
+<TABLE border="0" cellSpacing="0" cellPadding="0" width="600" align="center">
+  <TBODY>
+  <TR>
+    <TD colSpan="3">
+      <H1>Table Layed Out HTML Page </H1></TD></TR>
+  <TR>
+    <TD bgColor="#00ff99"><SPAN class="style2">content area one </SPAN></TD>
+    <TD bgColor="#ff66cc">
+      <DIV class="style1" align="center">content area two </DIV></TD>
+    <TD bgColor="#cc3300" height="300">
+      <P class="style3" align="right">content area three </P></TD></TR>
+  <TR>
+    <TD colSpan="3">
+      <TABLE border="0" width="600">
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV align="center"><A href="http://www.pitt.edu/~bonidie/cs334/labs/table.html#">home</A></DIV></TD>
+          <TD>
+            <DIV align="center"><A href="http://www.pitt.edu/~bonidie/cs334/labs/table.html#">products</A></DIV></TD>
+          <TD>
+            <DIV align="center"><A href="http://www.pitt.edu/~bonidie/cs334/labs/table.html#">about 
+            us</A> </DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>

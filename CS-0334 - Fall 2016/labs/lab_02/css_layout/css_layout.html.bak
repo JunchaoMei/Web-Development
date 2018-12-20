@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Junchao Mei, CS0334, Fall 2016, Lab 2 -->
+
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>CSS & divs Layed Out</title>
+	<meta name="author" content="Junchao Mei"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="generator" content="mshtml 9.00.8112.16457">
+	<link rel="stylesheet" type="text/css" href="css_layout.css">
+</head>
+
+<body>
+
+<div class="header">
+<h1 style="margin-bottom:0;">HTML Page of CSS & divs Layed out</h1></div>
+
+<div class="content_left" >
+content area 1
+</div>
+<div class="content_middle" >
+content area 2
+</div>
+<div class="content_right" >
+content area 3
+</div>
+
+<div class="footer_left">
+<a href="http://junchao.x10.mx/CS0334/">Home</a>
+</div>
+<div class="footer_middle">
+<a href="http://junchao.x10.mx/CS0334/index_page/">Index Page</a>
+<div class="footer_right">
+<a href="http://junchao.x10.mx/CS0334/labs/lab_02/create_this_page/table.html">Create This Page</a>
+</div>
+
+</body>
+</html>

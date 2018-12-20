@@ -1,0 +1,30 @@
+body
+{
+	background-image: url(bg.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: Arial, Calibri;
+	font-size: 14pt;
+	text-align:center;
+	color: black;
+}
+
+h1
+{
+	font-family: Arial;
+	font-style: bold;
+	font-size: 25pt;
+}
+
+h2
+{
+	font-family: Arial;
+	font-style: bold;
+	font-size: 20pt;
+}
+
+h3
+{
+	font-family: Arial;
+	font-size: 15pt;
+}

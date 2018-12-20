@@ -1,0 +1,22 @@
+﻿td.Header {
+    font-family: Arial;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+td.Normal {
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+td.NormalBold {
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+td.NormalRed {
+    font-family: Arial;
+    font-size: 12pt;
+    color: #d20e0e;
+}

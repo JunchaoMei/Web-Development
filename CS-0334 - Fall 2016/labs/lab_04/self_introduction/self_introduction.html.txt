@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Junchao Mei, CS0334, Fall 2016, Lab 4 -->
+
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>Self Introduction</title>
+		<meta name="author" content="Junchao Mei"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="self_introduction.css">
+	</head>
+
+	<body>
+		<a href="self_introduction.php.txt">View PHP Code</a></br>
+		<a href="self_introduction.html.txt">View HTML Code</a></br>
+		<a href="self_introduction.css.txt">View CSS Code</a></br>
+		<h1>Self Introduction</h1>
+		<h3>Please fill in the blanks below, and I'll generate a brief self-introduction for you</h3>
+
+		<form method = "post" action = "self_introduction.php">
+			<fieldset>
+				<label>full name:</label>
+					<input type = "text" name = "full_name" />
+				<label>location:</label>
+					<input type = "text" name = "location" />
+				<label>language:</label>
+					<input type = "text" name = "language" />
+				<label>hobby:</label>
+					<input type = "text" name = "hobby" />
+				<label>job:</label>
+					<input type = "text" name = "job" />
+				<label>favorite color:</label>
+					<input type = "text" name = "favorite_color" />
+				<label>favorite season:</label>
+					<select name = "favorite_season">
+						<option value = "Spring">Spring</option>
+						<option value = "Summer">Summer</option>
+						<option value = "Fall">Fall</option>
+						<option value = "Winter">Winter</option>
+					</select>
+				<button type = "submit">Generate Self-Introduction</button>  
+			</fieldset>
+		</form>
+	</body>
+</html>

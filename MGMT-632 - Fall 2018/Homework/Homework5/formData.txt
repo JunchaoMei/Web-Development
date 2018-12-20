@@ -1,0 +1,10 @@
+Junchao	Mei	Junchao's ID	junchaospw	male	25	subscribed	MBA	reading, tennis, ping pong, singing, piano, guitar	Junchao's message	9/30/2018
+Ruolan	Jiang	Ruolan's ID	ruolanspw	female	26	subscribed	MACCT	reading, piano, hiking	Ruolan's message	9/30/2018
+Joshua	Smith	Joshua's ID	joshuaspw	male	24	subscribed	3-2 MBA	basketball, skiing, hunting, hiking	Joshua's message	9/30/2018
+Anusha	Agnoor	Anusha's ID	anushaspw	female	23	subscribed	MS-ISA	singing, hiking	Anusha's message	9/30/2018
+Jianxiong	Guo	Jianxiong's ID	jianxiongspw	male	25	subscribed	Certificates	basketball, ping pong, piano	Jianxiong's message	9/30/2018
+Jinghui	Li	Jinghui's ID	jinghuispw	female	30	subscribed	EMBA	reading, skiing, singing, hiking	Jinghui's message	9/30/2018
+Jim	Lasche	Dr_Jim's ID	jimspw	male	65	subscribed	AOL	reading, skiing, hunting, hiking	Jim's message	9/30/2018
+Joan	Monato	MsJoan's ID	joanspw	female	46	unsubscribed	BBA/MACCT	reading, hiking	Joan's message	9/30/2018
+Monica	Kent	Monica's ID	monicaspw	female	19	subcribed	BBA	singing, piano, guitar	Monica's message	9/30/2018
+Marlise	DeVoe	Marlise's ID	marlisespw	female	38	unsubscribed	MBA-Ed	reading, hunting, hiking	Marlise's message	9/30/2018

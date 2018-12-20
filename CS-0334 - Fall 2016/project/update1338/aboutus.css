@@ -1,0 +1,14 @@
+body {
+	background-image: url(bg_project_aboutus.jpg);
+	background-position: top center;
+	background-repeat: repeat;
+	font-family: cursive;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	border:1px;
+	width:100px;
+	margin:0px auto;
+}

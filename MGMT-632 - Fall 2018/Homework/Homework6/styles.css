@@ -1,0 +1,64 @@
+/* CSS Document */
+
+.normal {
+	font-size:12pt;
+	font-family: arial, helvetica, sans;
+	color:#000000;
+}
+
+.normalBold {
+	font-size:12pt;
+	font-family: arial, helvetica, sans;
+	font-weight: bold;
+	color:#000000;
+}
+
+.header {
+	font-size:14pt;
+	font-weight: bold;
+	font-family: arial, helvetica, sans;
+	color:#000000;
+}
+
+.calcTitle {
+	font-size:12pt;
+	font-weight: bold;
+	font-family:Georgia;
+	color:#000000;
+}
+
+.calcButtons {
+	font-size:26pt;
+	font-weight: bold;
+	font-family: arial, helvetica, sans;
+	color:#50595e;
+    cursor: pointer;
+}
+
+.calcDisplay {
+	font-size:26pt;
+	font-weight: bold;
+	font-family: arial, helvetica, sans;
+	color:#50595e;
+    cursor: text;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+    border: solid 0 #000;
+    border-left-width:2px;
+    border-right-width:2px;
+    border-bottom-width:2px;
+    border-top-width:2px;
+}
+
+.smiley {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+    background-image: url("smiley.png");
+}

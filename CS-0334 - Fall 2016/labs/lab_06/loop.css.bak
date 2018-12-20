@@ -1,0 +1,10 @@
+body {
+  background-image: url(bg6.jpg);
+  background-position: top center;
+  background-repeat: repeat;
+  font-family: cursive;
+  text-align: center;
+}
+li {
+  text-align: center;
+}

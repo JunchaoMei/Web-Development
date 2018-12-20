@@ -1,0 +1,28 @@
+body {
+	background-color: #9dfbfb;/*blue sky*/
+	color: rgb(51, 0, 102);
+}
+
+table {
+	background-color: #ffe599;/*rice yellow*/
+}
+
+tr {
+	color: rgb(100, 200, 255);
+}
+
+td {
+	color: rgb(100, 200, 255);
+}
+
+th {
+	color: rgb(50, 150, 100);
+}
+
+h1 {
+	text-align: center; color: purple;
+}
+
+a {
+	color: blue;
+}

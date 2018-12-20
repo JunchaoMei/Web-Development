@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Junchao Mei, CS0334, Fall 2016, Lab 7 -->
+
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Dates & Arrays</title>
+		<meta name="author" content="Junchao Mei"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="dates&arrays.css">
+	</head>
+
+	<body>
+		<p><a href="dates&arrays.php.txt">View PHP Code</a></p>
+		<h1>Dates & Arrays</h1>
+
+		<?php
+			$daysofweek = array("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
+		?><!-- end php -->
+
+		<h3>The days of the week in sequence are:</h3>
+		<ol>
+			<?php
+				foreach ($daysofweek as $day)
+				{
+					echo "<li>".$day."</li>";
+				}//end foreach loop
+			?><!-- end php -->
+		</ol>
+
+		<hr/><!-- horizontal line -->
+
+		<form action="" method="post">
+			Month of Your Birth:<input type="text" name="month" /><br/>
+			Day of Your Birth:<input type="text" name="day" /><br/>
+			Year of Your Birth:<input type="text" name="year" />
+			<input type="submit" value="Submit" />
+		</form>
+
+		<hr/><!-- horizontal line -->
+		<h3>The Day of Your Birth</h3>
+
+		<?php
+			//code to check for undefined variables
+			if (empty($_POST['year'])) {echo nl2br("Year not entered yet"."\n");}
+			else {$year = $_POST['year'];}
+			if (empty($_POST['month'])) {echo nl2br("Month not entered yet"."\n");}
+			else {$month = $_POST['month'];}
+			if (empty($_POST['day'])) {echo nl2br("Day not entered yet"."\n");}
+			else {$day = $_POST['day'];}
+		
+			// display day of birth
+			if (!empty($_POST['year']))
+			{
+				$userdate = $year."-".$month."-".$day;
+				echo "You were born on a ".date("l",mktime(0,0,0,$month,$day,$year))."!<br/>"; 
+				$daysInMonth = date('t',mktime(0,0,0,$month,1,$year));
+				$offset = date("w",mktime(0,0,0,$month,1,$year));
+
+				echo "<h3>Calendar of the Month of Your Birth:</h3>";
+
+				//build calendar
+				$calendarArray = array();
+				$i=1;
+				$isFirstWeek = True;
+				for ($row = 0; $row < 6; $row++)
+				{
+					$col = 0;
+					if($isFirstWeek)
+					{
+						$col = $offset;
+						$isFirstWeek = false;
+					}//end if
+
+					for ($col; $col < 7; $col++)
+					{
+						if($i > $daysInMonth)
+						{
+							$i = ' ';
+						}//end if
+						$calendarArray[$row][$col]=$i;
+						$i++;
+					}//end for loop $col
+				}//end for loop $row
+		
+				//print calendar
+				//display header row
+				echo "<table align='center'>";
+				echo"<tr>";
+				echo"<th> Sun </th>";
+				echo"<th> Mon </th>";
+				echo"<th> Tue </th>";
+				echo"<th> Wed </th>";
+				echo"<th> Thu </th>";
+				echo"<th> Fri </th>";
+				echo"<th> Sat </th>";
+				echo"</tr>";
+		
+				$i = 1;
+				//$m = array(); //added to check for nulls     
+				for ($row = 0; $row < 6; $row++)
+				{
+					echo("<tr>");
+					for ($col = 0; $col < 7; $col++)
+					{
+						if (!isset($calendarArray[$row][$col]))
+						{
+							echo("<td> </td>");
+						} else
+						{
+							$m = $calendarArray[$row][$col];
+							echo("<td>$m</td>");
+							$i++;
+						}//end else
+					}//end for loop $col
+					echo("</tr>");
+				}//end for loop $row
+				echo "</table>";
+			}//end if
+		?><!-- end php -->
+
+		<hr/><!-- horizontal line -->
+		<h3>Average & Total Scores</h3>
+
+		<form action="" method="POST">
+			Score 1: <input type="text" name="score[1]">/100<br/>
+			Score 2: <input type="text" name="score[2]">/100<br/>
+			Score 3: <input type="text" name="score[3]">/100<br/>
+			Score 4: <input type="text" name="score[4]">/100<br/>
+			Score 5: <input type="text" name="score[5]">/100<br/>
+			<input type="submit" value="Submit">
+		</form>
+
+		<?php
+			if (empty($_POST['score']))
+				echo nl2br("Scores not entered yet"."\n");
+			else
+			{
+			   $scores = $_POST['score'];
+			   $total = 0;
+			   foreach($scores as $score)
+				   $total += $score;
+			   echo "total= ".$total;
+			   echo "<br/>average= ".($total/5);
+			}//end else
+		?><!-- end php -->
+	</body>
+</html>

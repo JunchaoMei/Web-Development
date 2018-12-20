@@ -1,0 +1,98 @@
+/* CSS Document */
+
+a {color: #65816; text-decoration: none; cursor:pointer; font-family:Arial; font-size:12pt;}
+a:link {color: #185621; text-decoration: none; cursor:pointer; font-family:Arial; font-size:12pt;}
+a:visited {color: #185621; text-decoration: none; cursor:pointer; font-family:Arial; font-size:12pt;}
+a:hover {color: #185621; text-decoration: underline; cursor:pointer; font-family:Arial; font-size:12pt;}
+a:active {color: #185621; text-decoration: none; cursor:pointer; font-family:Arial; font-size:12pt;}
+
+.normal {font-size:12pt;font-family: arial, helvetica, sans;}
+
+.normalWhite {
+	font-size:12pt;
+	font-family: arial, helvetica, sans;
+	color:#FFFFFF;
+}
+
+.errorRed {
+	font-size:12pt;
+	font-family: arial, helvetica, sans;
+	color:#990000;
+}
+
+.pageHeading {
+	font-family: arial, helvetica, sans;
+	font-weight: bold;
+	font-size: 24px;
+	color:#000000;
+}
+
+ .backEndButtons {
+  -webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+  border-radius: 10px; 
+  padding: 5px 25px 5px 25px;
+  border: 2px solid #185621;
+  color:#000;
+  width:290px;
+  text-decoration:none;
+  background: #77ca83;
+  font-family: arial, helvetica, sans;
+  font-size: 18px;
+  color:#185621;
+  cursor: pointer;
+ }
+  
+  .searchBoxes { 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #185621; 
+    border: 2px solid rgb(60, 145, 73);
+    box-shadow: 0 0 27px rgb(204, 204, 204) inset;
+    outline:0; 
+    width: 130px; 
+ } 
+
+ .searchButton {
+  -webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+  border-radius: 10px; 
+  padding: 1px 10px 1px 10px;
+  border: 2px solid #185621;
+  color:#000;
+  width:80px;
+  text-decoration:none;
+  background: #77ca83;
+  font-family: arial, helvetica, sans;
+  font-size: 18px;
+  color:#185621;
+  cursor: pointer;
+ }
+
+ .backendBoxes { 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #185621; 
+    border: 2px solid rgb(60, 145, 73);
+    box-shadow: 0 0 27px rgb(204, 204, 204) inset;
+    outline:0; 
+    height:25px; 
+    width: 420px; 
+ } 
+
+  .displayOnlyBox { 
+    font-size:11pt;
+    font-family: arial, helvetica, sans;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #185621; 
+    border: 2px solid rgb(60, 145, 73);
+    box-shadow: 0 0 27px rgb(204, 204, 204) inset;
+    outline:0; 
+    display:block;
+    height:22px; 
+    width: 415px; 
+ } 
